@@ -11,6 +11,11 @@ This code can be used to reproduce the experiments in Mixed Precision FGMRES-Bas
 
 * **_test_ss.m_** is an example script for comparing FGMRES-WLSIR (with 3 precisions) using block split diagonal and left preconditioners on matrices in SuiteSparse collection.
 
+* **_cond_ml_mb.m, cond_plot.m_** are functions that construct left QR and block split diagonal preconditioners.
+
+* **_test_randsvd.m_** is an example script for comparing left QR and block split preconditioners on random dense matrices. Produces a table for condition numbers.
+
+* **_test_plot_ss.m_** is an example script for comparing left QR and block split preconditioners on matrices in SuiteSparse collection. Produces two figures for condition numbers.
 
 ## Requirements
 * The codes have been developed and tested with MATLAB 2022a.
